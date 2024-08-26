@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  web:
+    image: ubuntu:20.04
+    build:
+      context: ./app/
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    tty: true
+    volumes:
+      - "./app/:/var/www/html/"
