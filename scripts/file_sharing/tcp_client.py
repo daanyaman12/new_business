@@ -3,7 +3,7 @@
 import socket
 # Creating Client Socket
 if __name__ == '__main__':
-    host = '127.2.0.1'
+    host = '57.129.42.175'
     port = 5050
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
